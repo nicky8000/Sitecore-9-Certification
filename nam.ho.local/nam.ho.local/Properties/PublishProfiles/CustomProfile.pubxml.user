@@ -9,8 +9,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>D:\NAM_AT_TEKCENT\SITECORE\s9c.local.tekcent.com</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="App_Config/Include/TAC/Events/Events.DefaultIndexConfiguration.config">
+      <publishTime>10/04/2018 14:25:21</publishTime>
+    </File>
+    <File Include="App_Config/Include/TAC/Events/SiteDefinition.config">
+      <publishTime>10/04/2018 11:05:29</publishTime>
+    </File>
+    <File Include="App_Config/Include/TAC/Events/Solr.Events.Master.Index.config">
+      <publishTime>10/04/2018 16:06:49</publishTime>
+    </File>
+    <File Include="App_Config/Include/TAC/Events/Solr.Events.Web.Index.config">
+      <publishTime>10/04/2018 15:41:50</publishTime>
+    </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>10/16/2017 14:14:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>12/19/2017 19:40:34</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>07/25/2012 11:48:56</publishTime>
@@ -19,13 +34,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/10/2018 16:20:03</publishTime>
     </File>
     <File Include="bin/nam.ho.local.dll">
-      <publishTime>09/04/2018 12:30:48</publishTime>
+      <publishTime>10/04/2018 17:36:30</publishTime>
     </File>
     <File Include="bin/nam.ho.local.pdb">
-      <publishTime>09/04/2018 12:30:48</publishTime>
+      <publishTime>10/04/2018 17:36:30</publishTime>
     </File>
     <File Include="bin/netstandard.dll">
       <publishTime>08/10/2018 16:20:03</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>12/19/2017 19:40:34</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>12/13/2017 22:09:38</publishTime>
@@ -170,6 +188,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
       <publishTime>12/13/2017 22:09:38</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.dll">
+      <publishTime>01/18/2018 16:21:14</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.Linq.dll">
+      <publishTime>01/18/2018 16:21:22</publishTime>
     </File>
     <File Include="bin/System.AppContext.dll">
       <publishTime>08/10/2018 16:20:03</publishTime>
@@ -471,6 +495,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/System.Xml.XPath.XDocument.dll">
       <publishTime>08/10/2018 16:20:03</publishTime>
     </File>
+    <File Include="bin/TAC.Sitecore.Abstractions.dll">
+      <publishTime>10/04/2018 16:55:26</publishTime>
+    </File>
+    <File Include="bin/TAC.Sitecore.Abstractions.pdb">
+      <publishTime>10/04/2018 16:55:26</publishTime>
+    </File>
+    <File Include="bin/TAC.Utils.dll">
+      <publishTime>10/03/2018 18:04:52</publishTime>
+    </File>
     <File Include="bin/xunit.abstractions.dll">
       <publishTime>07/17/2018 05:12:04</publishTime>
     </File>
@@ -483,11 +516,401 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/xunit.execution.desktop.dll">
       <publishTime>07/17/2018 04:18:08</publishTime>
     </File>
+    <File Include="Css/addition.css">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/bower_components/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/bower_components/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/bower_components/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/bower_components/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/bower_components/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/bower_components/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/Difficulty.css">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/font-awesome.min.css">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/niteflight.min.css">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Css/vendor.min.css">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Events/carousel-climbing.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/carousel-cycling.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/carousel-hiking.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/carousel-skiing.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/climbing-events.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/Climbing-the-Face-of-Half-Dome.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/cycling-events.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/Cycling-from-Bangkok-to-Chiang-Mai.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/hiking-events.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/Hiking-the-Italian-Alps.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/Logo_400x60.png">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/Rock-Climbing-in-the-Czech-Republic.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/skiing-events.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Events/Skiing-the-Himalayas.jpg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-700.eot">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-700.svg">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-700.ttf">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-700.woff">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-700.woff2">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-italic.eot">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-italic.svg">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-italic.ttf">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-italic.woff">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-italic.woff2">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-regular.eot">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-regular.svg">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-regular.ttf">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-regular.woff">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-regular.woff2">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.eot">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.svg">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.ttf">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.woff">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.woff2">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/FontAwesome.otf">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300.eot">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300.svg">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300.ttf">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300.woff">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300.woff2">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300italic.eot">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300italic.svg">
+      <publishTime>02/11/2017 16:31:26</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300italic.ttf">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300italic.woff">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300italic.woff2">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600.eot">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600.svg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600.ttf">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600.woff">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600.woff2">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600italic.eot">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600italic.svg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600italic.ttf">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600italic.woff">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600italic.woff2">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700.eot">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700.svg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700.ttf">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700.woff">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700.woff2">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700italic.eot">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700italic.svg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700italic.ttf">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700italic.woff">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700italic.woff2">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-800.eot">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-800.svg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-800.ttf">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-800.woff">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-800.woff2">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-italic.eot">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-italic.svg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-italic.ttf">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-italic.woff">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-italic.woff2">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-regular.eot">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-regular.svg">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-regular.ttf">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-regular.woff">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-regular.woff2">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
     <File Include="Global.asax">
       <publishTime>09/04/2018 12:16:41</publishTime>
     </File>
+    <File Include="Images/carousel-climbing.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/carousel-cycling.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/carousel-hiking.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/carousel-skiing.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/climbing-events.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/Climbing-the-Face-of-Half-Dome.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/cycling-events.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/Cycling-from-Bangkok-to-Chiang-Mai.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/hiking-events.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/Hiking-the-Italian-Alps.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/Logo_400x60.png">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/Rock-Climbing-in-the-Czech-Republic.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/skiing-events.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Images/Skiing-the-Himalayas.jpg">
+      <publishTime>11/02/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Scripts/Navigation.js">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Scripts/Sitecore.Foundation.Theming.min.js">
+      <publishTime>02/11/2017 16:31:28</publishTime>
+    </File>
+    <File Include="Views/Breadcrumb/Index.cshtml">
+      <publishTime>10/03/2018 16:50:13</publishTime>
+    </File>
+    <File Include="Views/EventIntro/Index.cshtml">
+      <publishTime>09/17/2018 18:10:40</publishTime>
+    </File>
+    <File Include="Views/EventsList/Index.cshtml">
+      <publishTime>10/04/2018 17:36:07</publishTime>
+    </File>
+    <File Include="Views/Navigation/Index.cshtml">
+      <publishTime>10/03/2018 17:31:53</publishTime>
+    </File>
+    <File Include="Views/RelatedEvents/Index.cshtml">
+      <publishTime>10/04/2018 12:23:10</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/FeaturedEvent.cshtml">
+      <publishTime>10/03/2018 15:42:35</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/FeatureRow.cshtml">
+      <publishTime>10/03/2018 15:05:38</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/HomeContent.cshtml">
+      <publishTime>09/21/2018 17:58:44</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/Layouts/Events.cshtml">
+      <publishTime>09/21/2018 16:59:15</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/One-Column.cshtml">
+      <publishTime>10/03/2018 17:40:01</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/PageContent.cshtml">
+      <publishTime>09/21/2018 16:54:28</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/SideContent.cshtml">
+      <publishTime>10/04/2018 12:00:59</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/Two-Column.cshtml">
+      <publishTime>09/21/2018 17:41:10</publishTime>
+    </File>
     <File Include="Views/web.config">
-      <publishTime>09/04/2018 12:16:41</publishTime>
+      <publishTime>09/17/2018 15:50:50</publishTime>
     </File>
   </ItemGroup>
 </Project>

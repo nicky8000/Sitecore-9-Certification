@@ -1,0 +1,9 @@
+D:\NAM_AT_TEKCENT\Solutions\Sitecore9Certification\nam.ho.local\TAC.Sitecore.Abstractions\bin\Debug\TAC.Sitecore.Abstractions.dll
+D:\NAM_AT_TEKCENT\Solutions\Sitecore9Certification\nam.ho.local\TAC.Sitecore.Abstractions\bin\Debug\TAC.Sitecore.Abstractions.pdb
+D:\NAM_AT_TEKCENT\Solutions\Sitecore9Certification\nam.ho.local\TAC.Sitecore.Abstractions\bin\Debug\Sitecore.Kernel.dll
+D:\NAM_AT_TEKCENT\Solutions\Sitecore9Certification\nam.ho.local\TAC.Sitecore.Abstractions\bin\Debug\Sitecore.Mvc.dll
+D:\NAM_AT_TEKCENT\Solutions\Sitecore9Certification\nam.ho.local\TAC.Sitecore.Abstractions\obj\Debug\TAC.Sitecore.Abstractions.csprojAssemblyReference.cache
+D:\NAM_AT_TEKCENT\Solutions\Sitecore9Certification\nam.ho.local\TAC.Sitecore.Abstractions\obj\Debug\TAC.Sitecore.Abstractions.csproj.CoreCompileInputs.cache
+D:\NAM_AT_TEKCENT\Solutions\Sitecore9Certification\nam.ho.local\TAC.Sitecore.Abstractions\obj\Debug\TAC.Sitecore.Abstractions.csproj.CopyComplete
+D:\NAM_AT_TEKCENT\Solutions\Sitecore9Certification\nam.ho.local\TAC.Sitecore.Abstractions\obj\Debug\TAC.Sitecore.Abstractions.dll
+D:\NAM_AT_TEKCENT\Solutions\Sitecore9Certification\nam.ho.local\TAC.Sitecore.Abstractions\obj\Debug\TAC.Sitecore.Abstractions.pdb

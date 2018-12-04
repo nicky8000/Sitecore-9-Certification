@@ -2,4 +2,25 @@
   <PropertyGroup>
     <Site Server="s9c.local.tekcent.com" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
+  <File Include="Views\TAC\Events\Layouts\Events.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{CC99BD33-96A7-4B9A-953B-B5A4D3FEF603}</Item>
+  </File>
+  <File Include="/Views/TAC/Events/Layouts/Events.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{CC99BD33-96A7-4B9A-953B-B5A4D3FEF603}</Item>
+  </File>
+  <File Include="Views\TAC\Events\SideContent.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{522B4222-9A93-4C44-BC21-D555D13CA1BD}</Item>
+  </File>
+  <File Include="Views\TAC\Events\PageContent.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{BC98DC6C-EA5C-43AE-BD75-D12A9A36D3D9}</Item>
+  </File>
+  <File Include="Views\TAC\Events\Two-Column.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{AC7F2A8B-92DC-4347-8B48-BE425EFB7286}</Item>
+  </File>
+  <File Include="Views\TAC\Events\One-Column.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{C769196C-0CC6-4ED1-A208-B3330CE7CA9B}</Item>
+  </File>
+  <File Include="Views\TAC\Events\HomeContent.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{D699B43A-0C96-48B0-8BB8-19D459E113D3}</Item>
+  </File>
 </Project>
